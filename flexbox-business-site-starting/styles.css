@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    font-family: Cambria, sans-serif;
+    color: black;
+    background-color:burlywood;
+    font-size: 22px;
+    text-align: center;
+}
+
+a {
+    color: black;
+}
+
+h2, h3, h4, p {
+    margin: 0;
+    padding: 10px;
+}
+
+h5 {
+    display: block;
+    font-size: 0.83em;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 10%;
+}
+
+.navbar p {
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+.main {
+    padding-top: 35px;
+    opacity: 0.9;
+}
+
+#mission {
+    display: flex;
+    height: 300px;
+    background-image: url(../flexbox-business-site-starting/images/mike-kenneally-TD4DBagg2wE-unsplash.jpg);
+    padding-top: 35px;
+}
+
+#mission .content {
+    margin: auto;
+    background-color: burlywood;
+    width: 50%;
+}
+
+#menu {
+    min-height: 500px;
+    margin: auto;
+    padding-top: 70px;
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding: 10px;
+    height: auto;
+}
+
+.item span {
+    padding: 5px;
+    min-width: 240px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#team {
+    background-image: url(../flexbox-business-site-starting/images/jessica-lewis-Am2kjOEKADs-unsplash.jpg);
+    padding-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.teammate {
+    padding: 10px;
+    color: white;
+    flex-basis: 280px;
+}
+
+.teammate img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+}
+
+.contact, .copyright {
+    padding-top: 20px;
+}
+
