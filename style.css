@@ -219,5 +219,44 @@ details {
   font-size: 2em;
   width: 2em;
   margin-top: var(--spacing-1);
+  color:#323232;
 }
 
+#contact {
+  text-align: center;
+}
+
+.contact-icons {
+  font-size: 50px;
+  display: inline-flex;
+  justify-content: space-between;
+  width: 50%;
+  margin-top: var(--spacing-1);
+}
+
+.contact-text {
+  font-size: var(--spacing-3);
+  display: inline-flex;
+  justify-content: space-between;
+  margin-top: -22px;
+  width: 52%;
+}
+
+.github {
+  margin-left: -14px;
+}
+
+.email {
+  margin-right: 14px;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .about-me-container {
+    flex-direction: column;
+  }
+
+  .slideshow-container {
+    width: 250px;
+  }
+}
