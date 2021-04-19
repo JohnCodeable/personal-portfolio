@@ -19,7 +19,6 @@
     display: flex;
     align-items: center;
     padding: var(--spacing-3) 0;
-    background-color:cornsilk;
   }
 
   body {
@@ -29,6 +28,7 @@
     max-width: 900px;
     display: flex;
     flex-direction: column;
+    background-color:cornsilk;
   }
 
   a {
@@ -188,7 +188,8 @@
 }
 
 #projects {
-  background-color:cornsilk;
+  background-color:#323232;
+  color:cornsilk;
 }
 
 .project-image {
@@ -201,5 +202,22 @@
 
 details {
   cursor: pointer;
+}
+
+.skills {
+  background-color:cornsilk;
+}
+
+#skills-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#skills-container > * {
+  font-size: 2em;
+  width: 2em;
+  margin-top: var(--spacing-1);
 }
 
