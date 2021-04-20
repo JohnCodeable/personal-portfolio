@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="./style.css" />
+        <script src="https://kit.fontawesome.com/ee76b63d44.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav>
+            <h2 id="logo">John Paul Day</h2>
+            <ul class="navigation-items">
+                <li class="navigation-item"><a href="#about-me">About Me</a></li>
+                <li class="navigation-item"><a href="#projects">Projects</a></li>
+                <li class="navigation-item"><a href="#skills">Skills</a></li>
+                <li class="navigation-item"><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section id="about-me">
+                <div class="about-me-container">
+                    <div class="about-me-text-container">
+                        <h2>About Me</h2>
+                        <p>
+                            My name is John Day, and I really enjoy coding. I mostly just dabbled in coding until about a year ago when I started taking coding more seriously. I'm steadily making progress and it's becoming more and more enjoyable as I learn more.
+                        </p>
+                        <p>
+                            My favorite sport is baseball, but I occasionally enjoy watching football and basketball as well. I enjoy shooting guns at the gun range, and shooting skeet is especially fun because it's a moving target.
+                        </p>
+                        <p>
+                            I really enjoy spending time with my family and making new memories to share with others.
+                        </p>
+                    </div>
+                    <div class="slideshow-container">
+                        <div class="mySlides fade">
+                            <div class="numbertext">1 / 3</div>
+                            <img src="images/JohnDay.jpg" alt="A photo of John Day standing in front of a fireplace" class="portrait" />
+                            <div class="text">John Day</div>
+                        </div>
+                        <div class="mySlides fade">
+                            <div class="numbertext">2 / 3</div>
+                            <img src="images/JohnDay1.jpg" alt="Another photo of John Day with his hand on the fireplace mantle" class="portrait" />
+                            <div class="text">John Day</div>
+                        </div>
+                        <div class="mySlides fade">
+                            <div class="numbertext">3 / 3</div>
+                            <img src="images/John&VanessaDay.jpg" alt="A photo of John Day with his lovely sister"  class="portrait" />
+                            <div class="text">John and Vanessa Day</div>  
+                        </div>
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
+                    <br>
+                    <div style="text-align:center">
+                        <a href="javascript:void(0)" class="dot slideractive" onclick="currentSlide(1)"></a>
+                        <a href="javascript:void(0)" class="dot" onclick="currentSlide(2)"></a>
+                        <a href="javascript:void(0)" class="dot" onclick="currentSlide(3)"></a>
+                    </div>
+                </div>
+            </section>
+            <section id="projects">
+                <h2>Projects</h2>
+                <details class="project">
+                    <summary class="project-title">
+                        <h3>My first JavaScript project</h3>
+                    </summary>
+                    <img
+                        src="images/firstjavascript.png"
+                        alt="Photo of JavaScript code for a mixed number generator"
+                        class="project-image"
+                    />
+                    <p class="project-description">
+                        I created a mixed number generator using JavaScript for the first time.
+                    </p>
+                </details>
+                <details class="project">
+                    <summary class="project-title">
+                        <h3>My first flexbox website</h3>
+                    </summary>
+                    <a href="flexbox-business-site-starting/index.html" target="_blank" rel="noopener noreferrer">
+                        <img
+                            src="images/flexboxsite.png"
+                            alt="Photo of a website created using flexbox"
+                            class="project-image"
+                        />
+                    </a>
+                    <p class="project-description">
+                        I created a business website using the flexbox display element to make the website look neat and organized.
+                    </p>
+                </details>
+                <details class="project">
+                    <summary class="project-title">
+                        <h3>My first html cheatsheet using tables</h3>
+                    </summary>
+                    <a href="html-css-cheatsheat/index.html" target="_blank" rel="noopener noreferrer">
+                        <img
+                            src="images/htmlcheatsheet.png"
+                            alt="Photo of an html and css cheatsheet"
+                            class="project-image"
+                        />
+                    </a>
+                    <p class="project-description">
+                        I created an html and css cheatsheet using table elements.
+                    </p>
+                </details>
+            </section>
+            <section id="skills">
+                <h2>Skills</h2>
+                <div id="skills-container">
+                    <i class="fab fa-html5"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-git-square"></i>
+                    <i class="fab fa-github-square"></i>
+                    <i class="fas fa-terminal"></i>
+                    <i class="fab fa-chrome"></i>
+                </div>
+            </section>
+        </main>
+        <footer>
+
+        </footer>
+        <script type="text/javascript" src="javascript.js"></script>
+    </body>
+</html>

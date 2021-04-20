@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: cornsilk;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    color: darkorange;
+    text-align: center;
+}
+table {
+    border: 2px solid cornflowerblue;
+    width: 650px;
+    margin: 0 auto;
+}
+thead {
+    background-color: darkkhaki;
+}
+td {
+    border-top: 1px solid cornflowerblue;
+    border-right: 1px solid cornflowerblue;
+}
+.code {
+    background-color: deepskyblue;
+    font-family: sans-serif;
+}
+.css {
+    background-color: skyblue;
+    font-family: sans-serif;
+}
